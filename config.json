@@ -1,5 +1,6 @@
 {
-  "dialect": "postgres",
-  "port": 5432,
-  "omitNull": true
+	"dialect": "mssql",
+	"instanceName": "ms2008_dev2",
+	"protocol": "tcp",
+	"port": 2777
 }

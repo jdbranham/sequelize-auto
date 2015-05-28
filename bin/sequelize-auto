@@ -21,7 +21,7 @@ var argv = require('optimist')
   .describe('p', 'Port number for database.')
   .describe('c', 'JSON file for sending additional options to the Sequelize object.')
   .describe('o', 'What directory to place the models.')
-  .describe('e', 'The dialect/engine that you\'re using: postgres, mysql, sqlite')
+  .describe('e', 'The dialect/engine that you\'re using: postgres, mysql, sqlite, mssql')
   .argv;
 
 var configFile = {};
